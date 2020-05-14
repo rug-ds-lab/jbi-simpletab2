@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="$WikiTitle">
+    <meta name="author" content="$WikiTitle">
+
+    <title>$WikiTitle</title>
+    <link rel="shortcut icon" type="image/png" href="$PubDirUrl/skins/$Skin/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="$PubDirUrl/skins/$Skin/css/simpletab-ds2.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!--HTMLHeader-->
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <section class="header-section">
+        <div class="container">
+            <div id="vis">
+                <div id="logo"></div>
+            </div>
+            <div id="title">
+                $WikiTitle
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section role="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-toggleable-sm navbar-ds">
+            <div class="container">
+                <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div id="menu" class="collapse navbar-collapse hidden">
+                    <!--wiki:{$SiteGroup}.TabMenu-->
+                </div>
+            </div>
+        </nav>
+    </section>
+    
+    <section class="sub-header">
+        <div class="container">
+            <div><!--wiki:{$SiteGroup}.TopBar--></div>
+        </div>
+    </section>
+
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 d-none d-lg-block">
+					<div  id="sidebar">
+						<!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+					</div>
+                </div>
+                <div id="content" class="col-9">
+					<!--PageText-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer-section text-center">
+		<!--HTMLFooter--> 
+    </footer>
+    
+    <div id="tools">
+        <a rel="nofollow" accesskey='e' href='{$PageUrl}?action=edit'></a>
+        <a rel="nofollow" accesskey='h' href='{$PageUrl}?action=diff'></a>      
+        <a rel="nofollow" accesskey='a' href='{$PageUrl}?action=upload'></a>      
+        <a rel="nofollow" accesskey='c' href='{$ScriptUrl}/$[{$Group}/RecentChanges]'></a>      
+        <a rel="nofollow" accesskey='r' href='{$ScriptUrl}/Site/AllRecentChanges]'></a>
+        <a rel="nofollow" accesskey='l' href='{$ScriptUrl}/$[{$Group}/SideBar]?action=edit'></a>
+        <a rel="nofollow" accesskey='t' href='{$ScriptUrl}/Site/TopBar?action=edit'></a>
+        <a rel="nofollow" accesskey='m' href='{$ScriptUrl}/Site/TabMenu?action=edit'></a>
+        <a rel="nofollow" accesskey='f' href='{$ScriptUrl}/Site/Footer?action=edit'></a>
+    </div>
+
+    <!-- jQuery & Bootstrap Core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- SimpleTab Bootstrap Navbar fix -->
+    <script src="$PubDirUrl/skins/$Skin/js/bootstrap-simpletab.js"></script>
+</body>
+
+</html>
