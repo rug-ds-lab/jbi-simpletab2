@@ -1,5 +1,5 @@
 # jbi-simpletab2
-AJBI skin for PmWiki
+A BI skin for PmWiki
 
 # Installation
   * create a `jbi-simpletab2` directory in PmWiki's `pub/skins/` directory.
