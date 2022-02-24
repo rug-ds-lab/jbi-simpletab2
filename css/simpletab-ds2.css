@@ -60,6 +60,63 @@ body h5 {
 .sub-header ul li {
     display: inline;
 }
+
+.bibbtn {
+    float: right;
+    height: 15px;
+    width: 15px;
+}
+
+.bibbtn:after {
+    font-family: FontAwesome;
+    content: "\f065";
+    font-size: 1.0rem;
+}
+
+.bibbtn.collapsed:after {
+    font-family: FontAwesome;
+    content: "\f066";
+    font-size: 1.0rem;
+}
+
+.bibabstract {
+	font-style: italic;
+    font-size: 14px;
+}
+
+.bibkeywords {
+	font-style: italic;
+    font-size: 14px;
+}
+
+.bibtex {
+    font-family: 'Courier New', monospace !important; 
+    font-size: 12px;
+}
+
+.biblink:before {
+    font-family: FontAwesome;
+    content: "\f0c1";
+    font-size: 1.0rem;
+	padding-right: 5px;
+}
+
+.bibcopy {
+	float: right;
+	position: relative;
+	left: 10px;
+}
+
+.bibcopy:after {
+    font-family: FontAwesome;
+    content: "\f0c5";
+    font-size: 1.0rem;
+}
+
+.bibcopy:active {
+    background-color: #3e8e41;
+}
+
 #vis {
     width: 100%;
     height: 123px;
